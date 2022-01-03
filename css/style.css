@@ -112,14 +112,13 @@ h1{
     margin: 50px 0;
 }
 .buton2{
-  
-  width: 170px;
-  height: 40px;
   border: 2px solid #FFFFFF;
   border-radius: 40px;
-    text-align: center;
-      
-
+  text-align: center;
+}
+.buton2--brg{
+  width: 170px;
+  height: 40px;
 }
 .buton2 a{
   line-height: 40px;
@@ -182,7 +181,7 @@ h1{
   line-height: 21px;
   color: #FFFFFF;
 }
-.contact__text {
+.contact__text--left {
   margin: 25px 0;
   width: 231px;
 }
@@ -192,8 +191,25 @@ h1{
   border-radius: 30px;
   padding-left: 25px;
 }
-.contact__img {
-}
 .contact__right {
+  padding: 35px 45px 36px 40px;
 }
-
+.item {
+}
+.contact__title {
+}
+.contact__text--right {
+  width: 141px;
+  margin: 25px 0;
+}
+.buton2--box {
+  width: 170px;
+  height: 35px;
+}
+.buton2--box a{
+  line-height: 30px;
+  letter-spacing: 0;
+}
+.contact{
+  margin-bottom: 132px;
+}
