@@ -234,11 +234,14 @@ h1{
 .footer {
 }
 .footer__top {
+  background-color: #FFFFFF;
 }
 .container {
 }
 .footer__row {
   display: flex;
+  justify-content: space-between;
+  padding: 37px 0;
 }
 .footer__sociel {
   display: flex;
@@ -251,9 +254,29 @@ h1{
 }
 .footer__txt {
   display: flex;
-  justify-content: ;
+  align-items: center;
   font-size: 14px;
   line-height: 16px;
   color: #000000;
+}
 
+.footer__txt-adresse {
+  margin-right: 105px;
+}
+.footer__txt-num {
+  margin-right: 40px;
+}
+.buton {
+}
+.footer__bottom{
+ 
+}
+.footer__bottom-iner{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: #828282;
+  padding: 25px 0;
 }
